@@ -1,0 +1,15 @@
+.container{
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: $desctopScreen;
+
+  @media screen and (min-width: $mobileScreen) {
+    width: $mobileScreen;
+  }
+  @media screen and (min-width: $tabletScreen) {
+    width: $tabletScreen;
+  }
+  @media screen and (min-width: $desctopScreen) {
+    width: $desctopScreen;
+  }
+}

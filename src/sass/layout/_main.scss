@@ -1,0 +1,32 @@
+
+.hero__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+ 
+}
+.hero {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url('/src/images/hero.jpg');
+}
+
+.hero__title {
+  display: block;
+  margin: 0 auto 30px;
+  max-width: 696px;
+
+  text-align: center;
+  font-family: $fontMain;
+  color: $whiteColor;
+  font-weight: 900;
+  font-size: 44px;
+  text-transform: uppercase;
+  letter-spacing: 0.06;
+  line-height: 1.61em;
+}
+
