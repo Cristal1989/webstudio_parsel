@@ -8,7 +8,7 @@
  
 }
 .hero {
-  max-width: 1600px;
+  max-width: 100%;
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -35,105 +35,6 @@
 }
 
 
-// ========= partials =================
 
 
-.partials {
-  padding: 94px 0;
-}
 
-.partials__items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  // flex-wrap: wrap;
-  gap: 30px;
-}
-
-.icon__field{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: $backgroundIcon;
-}
-
-.partials__title {
-  margin-bottom: 10px;
-
-  color: $blackColor;
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-}
-.partials__subtitle {
-  color: $mainColor;
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
-  width: 270px;
-  height: 72px;
-}
-
-
-// ================= work =================
-
-
-.work {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 94px;
-}
-.work__title {
-  color: $blackColor;
-  font-family: Roboto;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-
-  margin-bottom: 50px;
-}
-.work__items {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-}
-.work__item {
-  position: relative;
-}
-.work__item--img {
-}
-.work__boxTitle {
-  position: absolute;
-  bottom: 0;
-  margin: 0 auto;
-
-  width: 370px;
-  height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
-}
-.work__subtitle {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  font-family: Roboto;
-  font-size: 16px;
-  text-align: center;
-  text-transform: uppercase;
-
-  padding: 27px 0;
-  color: $whiteColor;
-}
