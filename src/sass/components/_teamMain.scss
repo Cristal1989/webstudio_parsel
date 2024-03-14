@@ -18,9 +18,9 @@
 }
 .team__items {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 30px;
+  
 }
 .team__item {
   background-color: $whiteColor;

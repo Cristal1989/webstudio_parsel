@@ -54,7 +54,7 @@
 }
 
 .contact__item--link {
-  color: $mainColor;
+  color: $blackColor;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
@@ -115,9 +115,11 @@
   align-items: center;
   gap: 30px;
 }
-
+.link__mail, .link__phone{
+  fill: currentColor;
+}
 .links__item--link {
-  color: $blackColor;
+  color: $mainColor;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
