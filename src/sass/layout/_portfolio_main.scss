@@ -1,0 +1,57 @@
+.portfolio__buttons {
+  padding: 94px 0 48px 0;
+}
+
+.portfolio__buttons--list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.portfolio__button {
+  padding: 6px 22px;
+  background-color: rgba(0, 0, 0, 0.06);
+  color: $blackColor;
+
+  &:hover, &:focus{
+    background-color: $accentColor;
+    color: $whiteColor;
+  }
+}
+
+// =============== cards ===================
+.card {
+  padding-bottom: 94px;
+}
+.card__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card__item {
+  outline: 1px solid rgba(0, 0, 0, 0.05);
+   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover, &:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+}
+
+.card__item h3{
+  padding: 20px 24px 0;
+  max-width: 322px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.card__item h4{
+  padding: 0 24px 20px;
+  max-width: 322px;
+  margin: 0;
+}
+
