@@ -113,10 +113,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+   
+  
+  // ====== tablet ==========
+  @media screen and (max-width: $tabletScreen) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 .link__mail, .link__phone{
   fill: currentColor;
+}
+.links__item{
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  @media screen and (max-width: $tabletScreen) {
+    margin-right: 0;
+    &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  }
+}
+.links__item--link:not(:last-child){
+  margin-right: 30px;
 }
 .links__item--link {
   color: $mainColor;
@@ -125,6 +145,8 @@
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  
 
   display: flex;
   justify-content: center;
