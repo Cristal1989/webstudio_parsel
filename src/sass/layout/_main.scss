@@ -1,15 +1,23 @@
-.hero{
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-	max-width: 100%;
+	width: 400px;
+	@media screen and (max-width: $tabletScreen) {
+		
+	
+	}
 }
-
+.hero__container {
+	@media screen and (max-width: $tabletScreen) {
+		margin: 0 128px;
+	}
+}
 .hero__title{
 	color: $whiteColor;
  	display: block;
-  margin: 0 auto 30px;
+  padding: 0 auto 30px;
   max-width: 696px;
 
   text-align: center;
@@ -34,7 +42,7 @@
   padding-top: 200px;
   padding-bottom: 200px;
 	@media screen and (max-width: $tabletScreen) {
-		padding: 118px;
+		// padding: 118px;
 	}
 
   // background-image: url("/src/images/bg/bg_desk@2x.jpg");
