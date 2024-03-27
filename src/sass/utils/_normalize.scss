@@ -1,14 +1,16 @@
+* {
+	box-sizing: border-box;
+	
+}
+
 body{
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-	// box-sizing: overflow;
-	// overflow: hidden;
+	
 }
 
-// html {
-// 	max-width: 100vh;
-// }
+
 
 ul, ol {
 	list-style: none;

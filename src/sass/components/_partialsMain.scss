@@ -1,13 +1,32 @@
-.partials {
-  padding: 94px 0;
+.partials__container {
+ padding-top: 94px;
+ padding-bottom: 94px;
 }
 
 .partials__items {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  // flex-wrap: wrap;
-  gap: 30px;
+
+  @media screen and (max-width:$tabletScreen)
+  {
+    flex-wrap: wrap;
+  }
+@media screen and (max-width:$tabletScreen) {
+    margin: 0 auto;
+    // flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+ 
+}
+.partials__item {
+  @media screen and (max-width:$tabletScreen) {
+    width: 354px;
+  }
 }
 
 .icon__field{
@@ -19,6 +38,9 @@
   height: 120px;
   margin-bottom: 30px;
   background-color: $backgroundIcon;
+  @media screen and (max-width:$tabletScreen) {
+    width: 354px;
+  }
 }
 
 .partials__title {
