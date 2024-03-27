@@ -3,15 +3,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-	width: 400px;
 	@media screen and (max-width: $tabletScreen) {
+		width: 400px;
 		
 	
 	}
 }
 .hero__container {
 	@media screen and (max-width: $tabletScreen) {
-		margin: 0 128px;
+		// margin: 0 128px;
 	}
 }
 .hero__title{
@@ -42,7 +42,7 @@
   padding-top: 200px;
   padding-bottom: 200px;
 	@media screen and (max-width: $tabletScreen) {
-		// padding: 118px;
+		padding: 118px;
 	}
 
   // background-image: url("/src/images/bg/bg_desk@2x.jpg");
