@@ -1,54 +1,53 @@
 <main class="wrapper">
-  <div class="hero__img">
-    <section class="container hero__container">
-      <div class="hero">
-        <picture class="team__item--img">
-          <!-- ===== desctop ====== -->
-          <source
-            media="(min-width: 1200px)"
-            srcset="./images/bg/bg_desk.webp 1x, ./images/bg/bg_desk@2x.webp 2x"
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 1200px)"
-            srcset="./images/bg/bg_desk.jpg 1x, ./images/bg/bg_desk@2x.jpg 2x"
-            type="image/jpg"
-          />
-          <!-- ====== tablet ===== -->
-          <source
-            media="(min-width: 768px)"
-            srcset="./images/bg/bg_tab.webp 1x, ./images/bg/bg_tab@2x.webp 2x"
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="./images/bg/bg_tab.jpg 1x, ./images/bg/bg_tab@2x.jpg 2x"
-            type="image/jpg"
-          />
-          <!-- ======= mobile ======= -->
-          <source
-            media="(max-width: 768px)"
-            srcset="./images/bg/bg_mob.webp 1x, ./images/bg/bg_mob.webp 2x"
-            type="image/webp"
-          />
-          <source
-            media="(max-width: 768px)"
-            srcset="./images/bg/bg_mob.jpg 1x, ./images/bg/bg_mob@2x.jpg 2x"
-            type="image/jpg"
-          />
-          <!-- <img
+  <section class="hero__img">
+    <div class="hero__container">
+      <picture class="team__item--img">
+        <!-- ===== desctop ====== -->
+        <source
+          media="(min-width: 1200px)"
+          srcset="./images/bg/bg_desk.webp 1x, ./images/bg/bg_desk@2x.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 1200px)"
+          srcset="./images/bg/bg_desk.jpg 1x, ./images/bg/bg_desk@2x.jpg 2x"
+          type="image/jpg"
+        />
+        <!-- ====== tablet ===== -->
+        <source
+          media="(min-width: 768px)"
+          srcset="./images/bg/bg_tab.webp 1x, ./images/bg/bg_tab@2x.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="./images/bg/bg_tab.jpg 1x, ./images/bg/bg_tab@2x.jpg 2x"
+          type="image/jpg"
+        />
+        <!-- ======= mobile ======= -->
+        <source
+          media="(max-width: 768px)"
+          srcset="./images/bg/bg_mob.webp 1x, ./images/bg/bg_mob.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(max-width: 768px)"
+          srcset="./images/bg/bg_mob.jpg 1x, ./images/bg/bg_mob@2x.jpg 2x"
+          type="image/jpg"
+        />
+        <!-- <img
           src="./images/bg/bg_mob.jpg"
           alt="background"
           width="1600"
           height="600"
           loading="lazy"
         /> -->
-        </picture>
-        <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero__button btn" data-modal-open>
-          Замовити послугу
-        </button>
-      </div>
+      </picture>
+      <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+      <button type="button" class="hero__button btn" data-modal-open>
+        Замовити послугу
+      </button>
+
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button class="modal__close" data-modal-close>
@@ -148,8 +147,8 @@
           </form>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
   <section class="partials__container container">
     <ul class="partials__items">
       <li class="partials__item">
@@ -272,474 +271,477 @@
       </li>
     </ul>
   </section>
-  <section class="container team__container">
-    <h2 class="team__title">Наша команда</h2>
-    <ul class="team__items">
-      <li class="team__item">
-        <picture class="team__item--img">
-          <!-- ===== desctop ====== -->
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./images/team/team-1_desk.webp    1x,
-              ./images/team/team-1_desk@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./images/team/team-1_desk.jpg    1x,
-              ./images/team/team-1_desk@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <!-- ====== tablet ===== -->
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ./images/team/team-1_tab.webp    1x,
-              ./images/team/team-1_tab@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ./images/team/team-1_tab.jpg    1x,
-              ./images/team/team-1_tab@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <!-- ======= mobile ======= -->
-          <source
-            media="(max-width: 768px)"
-            srcset="
-              ./images/team/team-1_mob.webp    1x,
-              ./images/team/team-1_mob@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(max-width: 768px)"
-            srcset="
-              ./images/team/team-1_mob.jpg    1x,
-              ./images/team/team-1_mob@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <img
-            src="./images/team/team-1_mob.jpg"
-            alt="Игорь Дембяненко продукт дизайнер"
-            width="270"
-            height="260"
-            loading="lazy"
-          />
-        </picture>
-        <div class="team__item--description">
-          <h3 class="team__item--name">Ігор Дем'яненко</h3>
-          <p class="team__item--subtitle">Product Designer</p>
-          <ul class="team__social">
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на instagram"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#insta"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на twitter"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#twit"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на facebook"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#fb"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на linkedin"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#in"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </li>
-      <li class="team__item">
-        <picture class="team__item--img">
-          <!-- ===== desctop ====== -->
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./images/team/team-2_desk.webp    1x,
-              ./images/team/team-2_desk@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./images/team/team-2_desk.jpg    1x,
-              ./images/team/team-2_desk@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <!-- ====== tablet ===== -->
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ./images/team/team-2_tab.webp    1x,
-              ./images/team/team-2_tab@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ./images/team/team-2_tab.jpg    1x,
-              ./images/team/team-2_tab@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <!-- ======= mobile ======= -->
-          <source
-            media="(max-width: 768px)"
-            srcset="
-              ./images/team/team-2_mob.webp    1x,
-              ./images/team/team-2_mob@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(max-width: 768px)"
-            srcset="
-              ./images/team/team-2_mob.jpg    1x,
-              ./images/team/team-2_mob@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <img
-            src="./images/team/team-2_mob.jpg"
-            alt="Ольга Рєпіна Frontend Developer"
-            width="270"
-            height="260"
-            loading="lazy"
-          />
-        </picture>
-        <div class="team__item--description">
-          <h3 class="team__item--name">Ольга Рєпіна</h3>
-          <p class="team__item--subtitle">Frontend Developer</p>
-          <ul class="team__social">
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на instagram"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#insta"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на twitter"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#twit"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на facebook"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#fb"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на linkedin"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#in"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </li>
-      <li class="team__item">
-        <picture class="team__item--img">
-          <!-- ===== desctop ====== -->
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./images/team/team-3_desk.webp    1x,
-              ./images/team/team-3_desk@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./images/team/team-3_desk.jpg    1x,
-              ./images/team/team-3_desk@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <!-- ====== tablet ===== -->
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ./images/team/team-3_tab.webp    1x,
-              ./images/team/team-3_tab@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ./images/team/team-3_tab.jpg    1x,
-              ./images/team/team-3_tab@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <!-- ======= mobile ======= -->
-          <source
-            media="(max-width: 768px)"
-            srcset="
-              ./images/team/team-3_mob.webp    1x,
-              ./images/team/team-3_mob@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(max-width: 768px)"
-            srcset="
-              ./images/team/team-3_mob.jpg    1x,
-              ./images/team/team-3_mob@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <img
-            src="./images/team/team-3_mob.jpg"
-            alt="Микола Тарасов Marketing"
-            width="270"
-            height="260"
-            loading="lazy"
-          />
-        </picture>
-        <div class="team__item--description">
-          <h3 class="team__item--name">Микола Тарасов</h3>
-          <p class="team__item--subtitle">Marketing</p>
-          <ul class="team__social">
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на instagram"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#insta"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на twitter"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#twit"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на facebook"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#fb"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на linkedin"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#in"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </li>
-      <li class="team__item">
-        <picture class="team__item--img">
-          <!-- ===== desctop ====== -->
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./images/team/team-4_desk.webp    1x,
-              ./images/team/team-4_desk@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              ./images/team/team-4_desk.jpg    1x,
-              ./images/team/team-4_desk@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <!-- ====== tablet ===== -->
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ./images/team/team-4_tab.webp    1x,
-              ./images/team/team-4_tab@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ./images/team/team-4_tab.jpg    1x,
-              ./images/team/team-4_tab@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <!-- ======= mobile ======= -->
-          <source
-            media="(max-width: 768px)"
-            srcset="
-              ./images/team/team-4_mob.webp    1x,
-              ./images/team/team-4_mob@2x.webp 2x
-            "
-            type="image/webp"
-          />
-          <source
-            media="(max-width: 768px)"
-            srcset="
-              ./images/team/team-4_mob.jpg    1x,
-              ./images/team/team-4_mob@2x.jpg 2x
-            "
-            type="image/jpg"
-          />
-          <img
-            src="./images/team/team-4_mob.jpg"
-            alt="Михайло Єрмаков UI Designer"
-            width="270"
-            height="260"
-            loading="lazy"
-          />
-        </picture>
-        <div class="team__item--description">
-          <h3 class="team__item--name">Михайло Єрмаков</h3>
-          <p class="team__item--subtitle">UI Designer</p>
-          <ul class="team__social">
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на instagram"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#insta"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на twitter"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#twit"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на facebook"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#fb"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="team__social--item">
-              <a
-                href="#"
-                class="team__social--link"
-                target="_blank"
-                aria-label="ссылка на linkedin"
-              >
-                <svg class="team__icon" width="20" height="20">
-                  <use href="./images/svg/icons.svg#in"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </li>
-    </ul>
+  <section class="team__bg">
+    <div class="container team__container">
+      <h2 class="team__title">Наша команда</h2>
+      <ul class="team__items">
+        <li class="team__item">
+          <picture class="team__item--img">
+            <!-- ===== desctop ====== -->
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/team/team-1_desk.webp    1x,
+                ./images/team/team-1_desk@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/team/team-1_desk.jpg    1x,
+                ./images/team/team-1_desk@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- ====== tablet ===== -->
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/team/team-1_tab.webp    1x,
+                ./images/team/team-1_tab@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/team/team-1_tab.jpg    1x,
+                ./images/team/team-1_tab@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- ======= mobile ======= -->
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./images/team/team-1_mob.webp    1x,
+                ./images/team/team-1_mob@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./images/team/team-1_mob.jpg    1x,
+                ./images/team/team-1_mob@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              class="team__img--default"
+              src="./images/team/team-1_mob.jpg"
+              alt="Игорь Дембяненко продукт дизайнер"
+              width="450"
+              height="460"
+              loading="lazy"
+            />
+          </picture>
+          <div class="team__item--description">
+            <h3 class="team__item--name">Ігор Дем'яненко</h3>
+            <p class="team__item--subtitle">Product Designer</p>
+            <ul class="team__social">
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на instagram"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#insta"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на twitter"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#twit"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на facebook"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#fb"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на linkedin"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#in"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="team__item">
+          <picture class="team__item--img">
+            <!-- ===== desctop ====== -->
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/team/team-2_desk.webp    1x,
+                ./images/team/team-2_desk@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/team/team-2_desk.jpg    1x,
+                ./images/team/team-2_desk@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- ====== tablet ===== -->
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/team/team-2_tab.webp    1x,
+                ./images/team/team-2_tab@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/team/team-2_tab.jpg    1x,
+                ./images/team/team-2_tab@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- ======= mobile ======= -->
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./images/team/team-2_mob.webp    1x,
+                ./images/team/team-2_mob@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./images/team/team-2_mob.jpg    1x,
+                ./images/team/team-2_mob@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="./images/team/team-2_mob.jpg"
+              alt="Ольга Рєпіна Frontend Developer"
+              width="450"
+              height="460"
+              loading="lazy"
+            />
+          </picture>
+          <div class="team__item--description">
+            <h3 class="team__item--name">Ольга Рєпіна</h3>
+            <p class="team__item--subtitle">Frontend Developer</p>
+            <ul class="team__social">
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на instagram"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#insta"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на twitter"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#twit"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на facebook"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#fb"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на linkedin"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#in"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="team__item">
+          <picture class="team__item--img">
+            <!-- ===== desctop ====== -->
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/team/team-3_desk.webp    1x,
+                ./images/team/team-3_desk@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/team/team-3_desk.jpg    1x,
+                ./images/team/team-3_desk@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- ====== tablet ===== -->
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/team/team-3_tab.webp    1x,
+                ./images/team/team-3_tab@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/team/team-3_tab.jpg    1x,
+                ./images/team/team-3_tab@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- ======= mobile ======= -->
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./images/team/team-3_mob.webp    1x,
+                ./images/team/team-3_mob@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./images/team/team-3_mob.jpg    1x,
+                ./images/team/team-3_mob@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="./images/team/team-3_mob.jpg"
+              alt="Микола Тарасов Marketing"
+              width="450"
+              height="460"
+              loading="lazy"
+            />
+          </picture>
+          <div class="team__item--description">
+            <h3 class="team__item--name">Микола Тарасов</h3>
+            <p class="team__item--subtitle">Marketing</p>
+            <ul class="team__social">
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на instagram"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#insta"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на twitter"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#twit"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на facebook"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#fb"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на linkedin"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#in"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="team__item">
+          <picture class="team__item--img">
+            <!-- ===== desctop ====== -->
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/team/team-4_desk.webp    1x,
+                ./images/team/team-4_desk@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/team/team-4_desk.jpg    1x,
+                ./images/team/team-4_desk@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- ====== tablet ===== -->
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/team/team-4_tab.webp    1x,
+                ./images/team/team-4_tab@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/team/team-4_tab.jpg    1x,
+                ./images/team/team-4_tab@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- ======= mobile ======= -->
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./images/team/team-4_mob.webp    1x,
+                ./images/team/team-4_mob@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./images/team/team-4_mob.jpg    1x,
+                ./images/team/team-4_mob@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="./images/team/team-4_mob.jpg"
+              alt="Михайло Єрмаков UI Designer"
+              width="450"
+              height="460"
+              loading="lazy"
+            />
+          </picture>
+          <div class="team__item--description">
+            <h3 class="team__item--name">Михайло Єрмаков</h3>
+            <p class="team__item--subtitle">UI Designer</p>
+            <ul class="team__social">
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на instagram"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#insta"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на twitter"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#twit"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на facebook"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#fb"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team__social--item">
+                <a
+                  href="#"
+                  class="team__social--link"
+                  target="_blank"
+                  aria-label="ссылка на linkedin"
+                >
+                  <svg class="team__icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#in"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
   </section>
   <section class="container clients__container">
     <h2 class="clients__title">Постійні клієнти</h2>

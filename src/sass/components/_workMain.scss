@@ -4,9 +4,13 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 94px;
-
   
+  @media screen and (max-width: $desctopScreen){
+    display: none;
+  }
 }
+
+
 .work__title {
   color: $blackColor;
   font-family: Roboto;

@@ -1,6 +1,6 @@
 .clients__container {
-  padding-top: 94px;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .clients__title {
   color: $blackColor;
@@ -13,6 +13,10 @@
   letter-spacing: 0.03em;
 
   margin-bottom: 50px;
+
+  @media screen and (max-width: $tabletScreen){
+    margin-bottom: 30px;
+  }
 }
 .clients__list {
   display: flex;
@@ -21,8 +25,9 @@
 
   @media screen and (max-width: $tabletScreen) {
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 29px;
   }
+ 
 }
 
 .clients__link {
@@ -46,6 +51,13 @@
     color: $accentColor;
     outline: transparent;
     border-color: $accentColor;
+  }
+
+  @media screen and (max-width: $tabletScreen){
+    width: 226px;
+  }
+  @media screen and (max-width: $mobileScreen){
+    width: 210px;
   }
 }
 .clients__icon {

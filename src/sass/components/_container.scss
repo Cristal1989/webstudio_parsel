@@ -1,46 +1,21 @@
-// .container{
-//   padding: 0 15px;
-//   margin: 0 auto;
-//   max-width: $desctopScreen;
+.container {
+	// ===== Mobile screem 480px =====
+	max-width: $mobileScreen;
+	padding: 0 15px;
+	margin: 0 auto;
+	// ===== Tablet screen 768px =====
+	@media screen and (min-width: $tabletScreen) {
+		max-width: $tabletScreen;
+	}
+	// ===== Desctop screen 1200px =====
+	@media screen and (min-width: $desctopScreen) {
+		max-width: $desctopScreen;
+	}
+}
 
-//   @media screen and (max-width: $mobileScreen) {
-//     width: $mobileScreen;
-//   }
-//   @media screen and (max-width: $tabletScreen) {
-//     width: $tabletScreen;
-//   }
-//   @media screen and (max-width: $desctopScreen) {
-//     width: $desctopScreen;
-//   }
-// }
 .wrapper {
-	max-width: 1600px;
+	max-width: $wrapper;
 	margin: 0 auto;
 	padding: 0;
 	overflow: clip;
-}
-
-.container {
-	
-	max-width: 100%;
-	width: 1170px;
-
-	padding-left: 15px;
-	padding-right: 15px;
-
-	margin-left: auto;
-	margin-right: auto;
-
-	@media screen and (max-width: $mobileScreen) {
-     max-width: $mobileScreen;
-  }
-
-	@media screen and (max-width: $tabletScreen) {
-		max-width: $tabletScreen;
-	}
-
-	
-	// @media screen and (min-width: $desctopScreen) {
-	// 	max-width: $desctopScreen;
-	// }
 }

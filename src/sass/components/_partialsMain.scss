@@ -7,26 +7,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+  gap: 30px;
 
-  @media screen and (max-width:$tabletScreen)
-  {
-    flex-wrap: wrap;
+  @media screen and (max-width:$desctopScreen){
+    gap: 29px;
   }
-@media screen and (max-width:$tabletScreen) {
-    margin: 0 auto;
-    // flex-wrap: nowrap;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+
+  @media screen and (max-width:$tabletScreen){
+    gap: 29px;
+    justify-content: center;
+  }
+
+@media screen and (max-width:$mobileScreen) {
+    
   }
  
 }
 .partials__item {
+  max-width: 100%;
+
   @media screen and (max-width:$tabletScreen) {
-    width: 354px;
+    flex-basis: calc((100% - 30px) / 2);
   }
+
+  
 }
 
 .icon__field{
@@ -38,8 +44,15 @@
   height: 120px;
   margin-bottom: 30px;
   background-color: $backgroundIcon;
+  @media screen and (max-width:$desctopScreen) {
+    width: 354px;
+  }
   @media screen and (max-width:$tabletScreen) {
     width: 354px;
+  }
+  @media screen and (max-width:$mobileScreen) {
+    max-width: 100%;
+    width: 450px;
   }
 }
 
@@ -53,6 +66,10 @@
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
+
+  @media screen and (max-width:$mobileScreen) {
+    text-align: center;
+  }
 }
 .partials__subtitle {
   color: $mainColor;
