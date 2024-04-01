@@ -20,5 +20,16 @@ $wrapper: 1600px;
 
 // ======== breakpoints =========
 $mobileScreen: 480px;
-$tabletScreen: 767px;
+$tabletScreen: 768px;
 $desctopScreen: 1200px;
+
+// ===== mixin ======
+@mixin section($pt: 60px, $pb: 60px) {
+  padding-top: $pt;
+  padding-bottom: $pb;
+}
+
+%section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}

@@ -23,19 +23,24 @@
   align-items: center;
   justify-content: space-between;
 
-  @media screen and (max-width: $tabletScreen) {
+  @media screen and (max-width: $desctopScreen) {
     flex-wrap: wrap;
     gap: 29px;
   }
- 
 }
-
+.client__item {
+  flex-basis: calc((100% - 150px) / 6);
+  @media screen and (max-width: $desctopScreen){
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  @media screen and (max-width: $tabletScreen){
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
 .clients__link {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
-  width: 170px;
   height: 92px;
 
   border-radius: 4px;
@@ -52,14 +57,8 @@
     outline: transparent;
     border-color: $accentColor;
   }
-
-  @media screen and (max-width: $tabletScreen){
-    width: 226px;
-  }
-  @media screen and (max-width: $mobileScreen){
-    width: 210px;
-  }
 }
 .clients__icon {
   fill: currentColor;
 }
+

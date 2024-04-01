@@ -26,36 +26,20 @@
 }
 .team__items {
   display: flex;
-  // justify-content: space-between;
-  gap: 37px;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 100%;
   
   @media screen and (max-width:$desctopScreen) {
-  justify-content: center;
   flex-wrap: wrap;
+  gap: 37px;
   }
   @media screen and (max-width:$tabletScreen) {
+    justify-content: center;
+    gap: 30px;
   }
  
 }
-// .team__item {
-//   background-color: $whiteColor;
-//   max-width: 270px;
-//   border-radius: 0px 0px 4px 4px;
-//   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-//   border: none;
-//   max-width: 100%;
-//   padding-bottom: 30px;
-
-//   @media screen and (max-width: $desctopScreen){
-//     max-width: 270px;
-//   }
-//   @media screen and (max-width: $tabletScreen){
-//     max-width: 350px;
-//   }
-//   @media screen and (max-width: $mobileScreen){
-//     max-width: 450px;
-//   }
-// }
 
 .team__item {
   max-width: 450px;
@@ -64,27 +48,30 @@
 		0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 
-	@media screen and (min-width: $tabletScreen) {
-		max-width: 354px;
+  @media screen and (max-width: $desctopScreen) {
+    max-width: 350px;
+  }
+	@media screen and (max-width: $tabletScreen) {
+		max-width: 450px;
 	}
 
-	@media screen and (min-width: $desctopScreen) {
-		max-width: 270px;
-	}
 
 }
 
 .team__item--description {
   padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  width: 100%;
+
+  @media screen and (max-width: $tabletScreen) {
+		padding-bottom: 24px;
+	}
 }
 .team__item--name {
   margin-bottom: 10px;
-  width: 100%;
 
   color: $blackColor;
   font-family: Roboto;
@@ -101,14 +88,12 @@
   line-height: 1.18;
 
   margin-bottom: 16px;
-  width: 100%;
 }
 .team__social {
   display: flex;
   justify-content: center;
 
   gap: 10px;
-  width: 100%;
 }
 .team__social--item {
   display: flex;
@@ -132,8 +117,6 @@
   color: $iconColor;
 
 &:hover{
-    width: 44px;
-    height: 44px;
     border-radius: 50%;
     background-color: $accentColor;
     fill: $whiteColor;

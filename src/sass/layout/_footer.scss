@@ -7,14 +7,29 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  @media screen and (max-width: $desctopScreen){
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+  }
+  @media screen and (max-width: $tabletScreen){
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.footer__contacts {
+  @media screen and (max-width: $tabletScreen){
+    margin-bottom: 60px;
+  }
+}
+.footer__logo {
+  display: block;
+  margin-bottom: 20px;
 }
 
-.footer__logo {
-  margin-bottom: 20px;
-  vertical-align: bottom;
-}
 .span__logowhite {
-  // color: $whiteColor;
+  color: $whiteColor;
 }
 
 .footer__address--item:not(:last-child) {
@@ -41,8 +56,7 @@
     color: $accentColor;
   }
 }
-.footer__social {
-}
+
 .footer__social--title {
   color: $whiteColor;
   margin-bottom: 20px;
@@ -73,8 +87,19 @@
 
 .footer__subscribe {
   flex: 0 1 570px;
+  @media screen and (max-width: $tabletScreen) {
+    flex-basis: auto;
+  }
 }
-
+.subscribe__form {
+  
+  @media screen and (max-width: $desctopScreen) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
 .subscribe__title {
   color: $whiteColor;
   display: block;
@@ -86,16 +111,22 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  @media screen and (max-width: $desctopScreen) {
+    margin-top: 60px;
+  }
 }
 .subscribe__field {
   display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: $desctopScreen) {
+    flex-direction: column;
+  }
 }
 .subscribe__input {
   display: block;
   width: 100%;
-  height: 18px;
+  height: 50px;
   margin: 0 auto;
   padding: 15px 0 15px 16px;
   border: 1px solid $opasityPlaceholder;
@@ -107,11 +138,24 @@
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: $opasity;
+
+  @media screen and (min-width: $tabletScreen) {
+    width: 450px;
+  }
+  @media screen and (min-width: $desctopScreen) {
+    width: 350px;
+  }
+  
 }
 
 .subscribe__btn {
   margin-left: 12px;
 
-  width: 200px;
+  max-width: 200px;
   height: 50px;
+
+  @media screen and (max-width: $desctopScreen) {
+    margin: 0;
+    margin-top: 20px;
+  }
 }
