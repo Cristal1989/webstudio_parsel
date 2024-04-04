@@ -36,11 +36,9 @@
 }
 .footer__address--link {
   color: $iconColor;
-
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  
   line-height: 1.7;
   letter-spacing: 0.03em;
   font-style: normal;
@@ -69,9 +67,9 @@
 }
 
 .footer__social--link {
-   color: $whiteColor;
+    color: $whiteColor;
 
-   width: 44px;
+    width: 44px;
     height: 44px;
     border-radius: 50%;
     background-color: $opasitySocial;
@@ -84,20 +82,12 @@
 		background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__subscribe {
-  // flex: 0 1 570px;
-  @media screen and (max-width: $tabletScreen) {
-    flex-basis: auto;
-  }
-}
 .subscribe__form {
-  
   @media screen and (min-width: $desctopScreen) {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
 }
 .subscribe__title {
   color: $whiteColor;
@@ -149,7 +139,6 @@
 
 .subscribe__btn {
   margin-left: 12px;
-
   max-width: 200px;
   height: 50px;
 

@@ -19,20 +19,16 @@
     gap: 29px;
     justify-content: center;
   }
-
-@media screen and (max-width:$mobileScreen) {
-    
-  }
- 
 }
 .partials__item {
   max-width: 100%;
 
-  @media screen and (max-width:$tabletScreen) {
-    flex-basis: calc((100% - 30px) / 2);
+  @media screen and (max-width:$desctopScreen) {
+    width: 350px;
   }
-
-  
+  @media screen and (max-width:$tabletScreen) {
+    flex-basis: calc((100% - 30px) / 1);
+  }
 }
 
 .icon__field{
@@ -40,17 +36,9 @@
   justify-content: center;
   align-items: center;
 
-  max-width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: $backgroundIcon;
-  @media screen and (max-width:$desctopScreen) {
-    min-width: 354px;
-  }
-  @media screen and (max-width:$tabletScreen) {
-    min-width: 450px;
-  }
-  
 }
 
 .partials__title {
